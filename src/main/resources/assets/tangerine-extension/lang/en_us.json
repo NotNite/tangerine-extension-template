@@ -1,0 +1,7 @@
+{
+  "tangerine.category.my_category": "My Cool Category",
+  "tangerine.module.my_module.name": "My Cool Module",
+  "tangerine.module.my_module.description": "This is a cool module!",
+  "tangerine.module.another_module.name": "Another Cool Module",
+  "tangerine.module.another_module.description": "Even cooler than the last one!"
+}

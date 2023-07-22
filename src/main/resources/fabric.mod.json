@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "tangerine-extension",
+	"version": "${version}",
+	"name": "Tangerine Extension",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"icon": "assets/tangerine-extension/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"tangerine": [
+			"com.example.tangerine_extension.ExampleExtension"
+		]
+	},
+	"mixins": [
+		"tangerine-extension.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"tangerine": "*",
+		"hajlib": "*",
+		"cauldron": "*"
+	}
+}
